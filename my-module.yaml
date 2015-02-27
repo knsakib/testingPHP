@@ -1,0 +1,10 @@
+application: cloud-support-telus-test
+module: my_module
+version: uno
+runtime: php
+instance_class: F1
+automatic_scaling:
+  min_idle_instances: 20
+  max_idle_instances: 50
+  min_pending_latency: 20ms
+  max_pending_latency: 100ms
